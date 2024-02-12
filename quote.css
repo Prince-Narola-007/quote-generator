@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(deer.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    padding: 30px;
+    width: 600px;
+    border-radius: 15px;
+    background-color: rgba(7, 23, 30, 0.865);
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+    size: 30px;
+    color: rgba(94, 171, 215, 0.904);
+}
+
+.quote {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.author {
+    margin: 20px 10px 5px 10px;
+    font-size: 20px;
+    text-align: right;
+}
+
+hr {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.next {
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(12, 84, 123, 0.904);
+    border: none;
+}
+
+.container:hover{
+    box-shadow: 5px 10px 20px rgb(90, 200, 244);
+}
